@@ -4,7 +4,93 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Golf ToURU</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+        <img src="./images/logoGolf.jpg" alt="Logo tienda" />
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="fas fa-cart-plus"></i>
+          </span>
+          <div class="cart-items">0</div>
+        </div>
+      </div>
+    </nav>
+    <!-- fin navbar -->
+
+    <!-- hero -->
+    <header class="hero">
+      <div class="banner">
+        <h1 class="banner-title">Bienvenido a Golf ToURU</h1>
+        <a href="#nuestrosproductos"
+          ><button class="banner-btn">compra ahora</button></a
+        >
+      </div>
+    </header>
+    <!-- fin hero -->
+
+    <!-- productos -->
+    <section class="products">
+      <div class="section-title">
+        <h2 id="nuestrosproductos">nuestros productos</h2>
+      </div>
+      <div class="products-center"></div>
+    </section>
+    <!-- fin productos -->
+    <!-- carrito -->
+
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2>tu carrito</h2>
+        <div class="cart-content">
+          <!-- item carrito -->
+          <!-- <div class="cart-item"></div> -->
+          <!-- fin item carrito -->
+        </div>
+        <div class="cart-footer">
+          <h3>Tu total: U$S <span class="cart-total">0</span></h3>
+          <button class="clear-cart banner-btn">limpiar carrito</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- fin carrito -->
+
+    <!-- custom css -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- font awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+    <!-- javascript app -->
+    <script src="app.js"></script>
+  </body>
 </html>

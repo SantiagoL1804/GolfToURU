@@ -2,6 +2,7 @@
 
 :root {
   --primaryColor: #f09d51;
+  --secondaryColor: #4ba52c;
   --mainWhite: #fff;
   --mainBlack: #222;
   --mainGrey: #ececec;
@@ -26,7 +27,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  background: rgb(231, 226, 221);
+  background: #4ba52c;
   z-index: 1;
 }
 .navbar-center {
@@ -54,11 +55,11 @@ body {
   border-radius: 30%;
   color: var(--mainWhite);
 }
-/* --------------- End of Navbar ---------------- */
+/* --------------- Fin Navbar ---------------- */
 /* --------------- Hero ---------------- */
 .hero {
   min-height: calc(100vh - 60px);
-  background: url("./images/hero-bcg.jpeg") center/cover no-repeat;
+  background: url("./images/tiger-bcg.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,8 +91,8 @@ body {
   background: transparent;
   color: var(--primaryColor);
 }
-/* --------------- End of Hero ---------------- */
-/* --------------- Products ---------------- */
+/* --------------- Fin Hero ---------------- */
+/* --------------- Productos ---------------- */
 
 .products {
   padding: 4rem 0;
@@ -120,7 +121,7 @@ body {
   position: absolute;
   top: 70%;
   right: 0;
-  background: var(--primaryColor);
+  background: var(--secondaryColor);
   border: none;
   text-transform: uppercase;
   padding: 0.5rem 0.75rem;
@@ -164,8 +165,8 @@ body {
   text-align: center;
 }
 
-/* ---------------End of Products ---------------- */
-/* --------------- Cart ---------------- */
+/* ---------------Fin Productos ---------------- */
+/* --------------- Carrito ---------------- */
 .cart-overlay {
   position: fixed;
   top: 0;
@@ -213,7 +214,7 @@ body {
   letter-spacing: var(--mainSpacing);
   margin-bottom: 2rem;
 }
-/*---------- Cart Item -------------------- */
+/*----------  Item carrito -------------------- */
 .cart-item {
   display: grid;
   align-items: center;
@@ -246,7 +247,7 @@ body {
   color: var(--primaryColor);
   cursor: pointer;
 }
-/*---------- End of Cart Item -------------------- */
+/*---------- Fin Item carrito -------------------- */
 
 .cart-footer {
   margin-top: 2rem;
@@ -258,4 +259,4 @@ body {
   margin-bottom: 1rem;
 }
 
-/* --------------- End of Cart ---------------- */
+/* --------------- Fin carrito ---------------- */
