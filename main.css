@@ -21,14 +21,14 @@ body {
 }
 /* --------------- Navbar ---------------- */
 .navbar {
-  position: sticky;
   top: 0;
   height: 60px;
   width: 100%;
   display: flex;
   align-items: center;
-  background: #4ba52c;
+  background: var(--secondaryColor);
   z-index: 1;
+  position: fixed;
 }
 .navbar-center {
   width: 100%;
